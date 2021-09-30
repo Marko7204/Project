@@ -16,11 +16,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
 
-    <body class="bg-image" style="background-image: url('img/background.svg'); height:5258px;">
+    <body class="bg-image" style="background-image: url('img/background.svg');">
         <div id="containerBody">
-            <img src="img/ellipse_2.png" class="float-right" id="mainImg1">
+            <img src="img/ellipse_2.png" class="float-right" id="mainImg1" style="z-index:-1; position:relative;">
 
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-md" style="z-index: 1;">
                 <div class="navbar-nav mr-auto">
                     <a class="navbar-brand mx-auto" href="#"><img src="img/logo.svg"></a>
                 </div>
@@ -65,7 +65,7 @@
             <section>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-10 col-xl-8">
+                        <div class="col-xl-8">
                             <div>
                                 <div class="carousel slide" id="carouselExampleIndicators">
 
@@ -317,6 +317,10 @@
                     </div>
                 </div>
             </div>
+            <div id="carouselProgressBar" class="progress active mx-auto" style="width:611px; height:10px; border:solid; border-width:1px; border-radius:10px; border-color:#662773;">
+                <div data-bs-target="#carouselProgressBar" class="progress-bar" role="progressbar" style="width:0%; border-radius:14px; background-color:#662773;" aria-valuenow="25" aria-valuemin="" aria-valuemax="100"></div>
+            </div>
+            <script src="js/script.js"></script>
         </section>
 
         <div id="section8" class="text-center" style="margin-top:12.5625rem;">
