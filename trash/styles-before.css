@@ -1,0 +1,384 @@
+a{
+    text-decoration: none;
+}
+
+#navLinks{
+    color:#6B7280;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:767px){
+    #containerBody{
+        margin-left: 0px;
+    }
+
+    .section1 > h1{
+        position: inherit;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 110.5%;
+    
+        text-align: center;
+    }
+    .section1 > p{
+        position: inherit;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #topArticle{
+        font-size:0.9375rem;
+        text-align: center;
+    }
+    #arrow{
+        padding-left: 0.375rem;
+    }
+
+    #section1Button{
+        width: 19.25px;
+        text-align: center;
+    }
+
+    .section2 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 110.5%;
+    
+        text-align: center;
+    }
+    .section2 > p{
+        position: inherit;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+
+    #section3 > p{
+        position: inherit;
+        font-style: normal;
+        line-height: 110.5%;
+    
+        text-align: center;
+    }
+    #section3{
+        position: inherit;
+        font-style: normal;
+        line-height: 110.5%;
+        
+        text-align: center;
+    }
+
+    #section4Img{
+        text-align: center;
+    }
+    #section4{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5625rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #articleSection4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.9375rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+
+    #section5 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #section5 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.9375rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+
+    #section6 > p{
+        font-style: normal;
+        font-size: 1.875rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #section6{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+
+    #section7{
+        display: block;
+    }
+
+    #partnerRow{
+        display: flex;
+    }
+    
+    #mainImg1{
+        display: none;
+    }
+
+    #table{
+        display: table;
+        margin: 0 auto;
+    }
+    ul#footerIcons{
+        list-style: none;
+	    padding-top: 20px;
+        text-align: center;
+    }
+    ul#footerIcons li{
+        display: inline;
+        float: right;
+    }
+    #footerAddress{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 110.5%;
+
+        margin-left: 10%;
+        margin-right: 10%;
+
+        text-align: center;
+    }
+}
+
+@media only screen and(max-width: 1999px) {
+    body{
+        margin-left:14.5625rem;
+        margin-top:2.1875rem;
+    }
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+
+    #mainImg2{
+        display: none;
+    }
+
+    /* .section1 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 110.5%;
+    
+        text-align: center;
+    }
+    .section1 > p{
+        position: inherit;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.5625rem;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #topArticle{
+        text-align: center;
+    }
+    #arrow{
+        padding-left: 0.4375rem;
+    }
+
+    #section1Button{
+        width: 20px;   
+    }
+
+    .section2 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110.5%;
+    }
+    .section2 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 110.5%;
+    }
+
+    #section3 > p{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 110.5%;
+    }
+    #section3{
+        font-style: normal;
+        font-weight: 300;   
+        font-size: 20px;
+        line-height: 110.5%;
+    }
+
+    #section7{
+        display: none;
+    } */
+}
+
+@media only screen and (min-width: 1200px){
+    #containerBody{
+        margin-left: 14.5625rem;
+    }
+
+    #topArticle{
+        font-size: 0.9375rem;
+    }
+
+    .section1 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 110.5%;
+    }
+    .section1 > p{
+        position: inherit;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.5625rem;
+        line-height: 110.5%;
+    }
+    #arrow{
+        padding-left: 0.4375rem;
+    }
+
+    #section1Button{
+        width: 20px;   
+    }
+
+    .section2 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110.5%;
+    }
+    .section2 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 110.5%;
+    }
+
+    #section3 > p{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 110.5%;
+    }
+    #section3{
+        font-style: normal;
+        font-weight: 300;   
+        font-size: 20px;
+        line-height: 110.5%;
+    }
+
+    #section4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110.5%;
+    }
+    #articleSection4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 110.5%;
+    }
+    #articleSection4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 110.5%;
+    }
+
+    #section5 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110.5%;
+    }
+    #section5 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 110.5%;
+    }
+
+    #section6 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 110.5%;
+    }
+    #section6{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 110.5%;
+    }
+
+    #section7{
+        display: none;
+    }
+
+    #section8 > h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+    #section8 > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 110.5%;
+
+        text-align: center;
+    }
+
+
+    #mainImg1{
+        display: block;
+    }
+    #mainImg2{
+        display: none;
+    }
+
+
+    #footer{
+        margin-right:233px;
+    }
+    #footerAddress{
+        padding-left: 42px;
+    }
+}
